@@ -6,5 +6,5 @@ const result = `{
  + verbose: true
  + timeout: 20
 }`;
- 
- export default result;
+
+export default result;
