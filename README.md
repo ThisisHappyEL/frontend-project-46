@@ -8,3 +8,6 @@
 
 Аскиинема по четвёртому шагу:
 [![asciicast](https://asciinema.org/a/7fZAHfAgfcVyKw9sxOCNwPQhW.svg)](https://asciinema.org/a/7fZAHfAgfcVyKw9sxOCNwPQhW)
+
+Аскиинема по шестому шагу:
+[![asciicast](https://asciinema.org/a/x8rHTWVcu46xagrlGSn9Os1MS.svg)](https://asciinema.org/a/x8rHTWVcu46xagrlGSn9Os1MS)
