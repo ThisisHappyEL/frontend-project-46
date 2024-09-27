@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import parser from './parser.js';
 import getDifferenceTree from './getDifferenceTreeFile.js';
-import formatter from './formatters/stylish.js';
+import formatter from './formatters/index.js';
 
 /* При передаче в качетсве аргумента правильно написанного относительного пути выводит абсолютный
 
@@ -28,6 +28,7 @@ const getDiffFunction = (path1, path2, format = 'stylish') => {
   const data2 = getData(filePath2);
 
   return formatter(getDifferenceTree(data1, data2), format);
+  // return JSON.stringify(getDifferenceTree(data1, data2));
 }
 
 export default getDiffFunction;
