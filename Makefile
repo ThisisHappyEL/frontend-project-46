@@ -13,6 +13,9 @@ stylish:
 plain:
 	node bin/gendiff --format plain __fixtures__/file1.json __fixtures__/file2.json
 
+json:
+	node bin/gendiff --format json __fixtures__/file1.json __fixtures__/file2.json
+
 lint:
 	npx eslint .
 
