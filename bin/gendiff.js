@@ -10,7 +10,9 @@ program
   .arguments('<filepath1>, <filepath2>')
   .option('-f, --format [type]', 'output format')
   .action((filepath1, filepath2) => {
-    genDiffFunction(filepath1, filepath2);
+    const options = program.opts();
+    const formatterFormat = options.format;
+    console.log(genDiffFunction(filepath1, filepath2, formatterFormat));
   });
 
 program.parse();

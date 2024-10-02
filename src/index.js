@@ -32,5 +32,3 @@ const getDiffFunction = (path1, path2, format = 'stylish') => {
 }
 
 export default getDiffFunction;
-
-console.log(getDiffFunction('__fixtures__/file1.json', '__fixtures__/file2.json'));

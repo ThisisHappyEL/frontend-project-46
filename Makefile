@@ -7,8 +7,11 @@ publish:
 gendiff:
 	node/gendiff.js
 
-run:
+stylish:
 	node bin/gendiff __fixtures__/file1.json __fixtures__/file2.json
+
+plain:
+	node bin/gendiff --format plain __fixtures__/file1.json __fixtures__/file2.json
 
 lint:
 	npx eslint .

@@ -11,3 +11,9 @@
 
 Аскиинема по шестому шагу:
 [![asciicast](https://asciinema.org/a/x8rHTWVcu46xagrlGSn9Os1MS.svg)](https://asciinema.org/a/x8rHTWVcu46xagrlGSn9Os1MS)
+
+Аскиинема по седьмому шагу:
+[![asciicast](https://asciinema.org/a/7wpeLH8ADwpFZR6aXHB6GaUZ3.svg)](https://asciinema.org/a/7wpeLH8ADwpFZR6aXHB6GaUZ3)
+
+Аскиинема по восьмому шагу:
+[![asciicast](https://asciinema.org/a/S0yYhoXV53kG7voLQvEDYvAXw.svg)](https://asciinema.org/a/S0yYhoXV53kG7voLQvEDYvAXw)

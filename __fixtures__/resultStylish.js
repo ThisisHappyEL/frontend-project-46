@@ -1,4 +1,4 @@
-const result = `{
+const resultStylish = `{
     common: {
       + follow: false
         setting1: Value 1
@@ -43,4 +43,4 @@ const result = `{
     }
 }`;
 
-export default result;
+export default resultStylish;
