@@ -5,23 +5,23 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-  "description": "[![Actions Status](https://github.com/ThisisHappyEL/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ThisisHappyEL/frontend-project-46/actions)",
-  "main": "bin/gendiff.js",
+  "description": "Hexlet project 'difference calculator'",
+  "main": "src/index.js",
   "scripts": {
     "test": "npx jest",
     "lint": "npx eslint ."
   },
   "author": "ThisisHappy",
   "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "@jest/globals": "^29.7.0",
     "eslint": "^9.10.0",
     "globals": "^15.9.0",
     "jest": "^29.7.0"
-  },
-  "dependencies": {
-    "commander": "^12.0.0",
-    "lodash": "^4.17.21"
   }
 }
