@@ -6,14 +6,6 @@ import parser from './parser.js';
 import getDifferenceTree from './getDifferenceTreeFile.js';
 import formatter from './formatters/index.js';
 
-/* При передаче в качетсве аргумента правильно написанного относительного пути выводит абсолютный
-
-console.log(buildFullPath('../__fixtures__/file1.json'));
-
-💻 src (main) $ node index.js
-/home/ThisisHappy/LearnDir/frontend-project-46/__fixtures__/file1.json
-*/
-
 const getFullPath = (filePath) => path.resolve(process.cwd(), filePath);
 
 const getExtension = (filename) => path.extname(filename).slice(1);
@@ -28,7 +20,6 @@ const getDiffFunction = (path1, path2, format = 'stylish') => {
   const data2 = getData(filePath2);
 
   return formatter(getDifferenceTree(data1, data2), format);
-  // return JSON.stringify(getDifferenceTree(data1, data2));
-}
+};
 
 export default getDiffFunction;
